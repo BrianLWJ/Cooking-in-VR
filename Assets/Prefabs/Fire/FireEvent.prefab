@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6676582746328075257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3578970745089278900}
+  - component: {fileID: 5885760147178299044}
+  m_Layer: 0
+  m_Name: FireEvent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3578970745089278900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6676582746328075257}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -46.68554, y: 0.13, z: 23.21547}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5885760147178299044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6676582746328075257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edca6e58f53b331b98c4f3484b097c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FireEvent
+  firePrefab: {fileID: 7998829890301818912, guid: 41b74ec59fa765a55903e4e132253e85, type: 3}
+  maxFires: 20
+  fireSfx: {fileID: 8300000, guid: 4e2936cf98a7eed4f98cc9c552fd1e67, type: 3}
+  audioManager: {fileID: 0}
+  lifeTime: 20
+  minimunLifeTimeToSpread: 5
+  spreadChancePerFrame: 0.005
+  timeToExtinguish: 3.5
+  spread: {x: 1, y: 0.5, z: 1}
+  minimunBound: {x: -47, y: 0, z: 20}
+  maximunBound: {x: -27, y: 4, z: 36}

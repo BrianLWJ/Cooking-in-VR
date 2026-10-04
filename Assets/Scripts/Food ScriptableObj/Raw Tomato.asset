@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b2ad782a354461468cbdea1c6a2b6e2, type: 3}
+  m_Name: Raw Tomato
+  m_EditorClassIdentifier: Assembly-CSharp::FoodSO
+  foodPrefab: {fileID: 6998585066718336772, guid: 313a5f58dcc901741a9e04cc367838c2, type: 3}

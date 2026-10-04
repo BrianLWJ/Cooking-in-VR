@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0faedc2d58f8ca948a8dc962671b5e90, type: 3}
+  m_Name: Cooked Patty Burger
+  m_EditorClassIdentifier: Assembly-CSharp::RecipeSO
+  ingredients:
+  - {fileID: 11400000, guid: ee7302d286447c54e9deffef0184f551, type: 2}
+  - {fileID: 11400000, guid: f19c98e97d4d2434093e24ad971bfee8, type: 2}
+  - {fileID: 11400000, guid: 6b43d1fc0a896204a84088f24e955c67, type: 2}
+  combinationResultGameObject: {fileID: 5244153211338592492, guid: 8ce2d32b0bc80b14da4f8d543ddb83f8, type: 3}
